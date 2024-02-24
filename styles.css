@@ -1,0 +1,58 @@
+.fondo {
+    background-image: url(img/arkhamfondo2.jpg);
+    width: 100%;
+    height: 600px;
+}
+
+.contenedor-columnas {
+    width: 100%;
+    height: 100px;
+    margin: auto;
+    background-color: green;
+} 
+
+.cabe1 {
+    width: 25%;
+    float: left;
+    display: flex;
+
+}
+
+.cabe2 {
+    width: 50%;
+    float: left;
+    text-align: center;
+    text-indent: 20px;
+}
+
+.cabe3 {
+    width: 25%;
+    float:left;
+    text-align: right;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+h2 {
+    font-family: cursive;
+    font-size: 30px;
+}
+
+h1, h2, h3, h4 {
+    margin: 0px;
+
+}
+
+
+
+.boxe, article {
+    flex-direction: row;
+    color: whitesmoke;
+    border: 5px;
+    width: 33%;
+    height: 60%;
+    margin: 0px 20px 0px 10px;
+    padding-bottom: 30px;
+}
